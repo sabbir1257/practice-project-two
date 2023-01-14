@@ -83,12 +83,23 @@ header{
 .populer h2{
     text-align: center;
 }
+.populer-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid;
+    gap: 10px;
+    justify-items: center;
+}
 .populer-box{
+    display: grid;
     background:#FFFFFF;
     padding-bottom: 10px;
     width: 329px;
     height: 476px;
+    border: 2px solid red;
+    line-height: 20px;
 }
+
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
